@@ -1,0 +1,677 @@
+Identity added: /home/alham0a/.ssh/id_rsa (Mohammed.alharbi.3@kaust.edu.sa)
+Identity added: /home/alham0a/.ssh/id_rsa (Mohammed.alharbi.3@kaust.edu.sa)
+
+To connect to the compute node gpu510-32 on Ibex running your Jupyter server, 
+you need to create an ssh tunnel from your local machine to login node on Ibex 
+using the following command.
+
+ssh -L 12472:gpu510-32:12472 alham0a@glogin.ibex.kaust.edu.sa 
+
+Next, you need to copy the second url provided below and paste it into the browser 
+on your local machine.
+
+[W 2024-06-14 00:27:48.781 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-06-14 00:27:48.782 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-06-14 00:27:48.786 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-06-14 00:27:48.791 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2024-06-14 00:27:48.791 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2024-06-14 00:27:48.795 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-06-14 00:27:48.798 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2024-06-14 00:27:48.803 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-06-14 00:27:48.803 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2024-06-14 00:27:48.806 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-06-14 00:27:48.806 ServerApp] nbdime | extension was successfully linked.
+[I 2024-06-14 00:27:49.042 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-06-14 00:27:49.136 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-06-14 00:27:49.138 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-06-14 00:27:49.138 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-06-14 00:27:49.138 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /ibex/user/alham0a/ronin
+[I 2024-06-14 00:27:49.138 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/alham0a/.local/share/jupyter/file_id_manager.db
+[I 2024-06-14 00:27:49.139 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-06-14 00:27:49.139 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-06-14 00:27:49.139 FileIdExtension] Attached event listeners.
+[I 2024-06-14 00:27:49.140 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-06-14 00:27:49.140 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2024-06-14 00:27:49.154 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2024-06-14 00:27:49.155 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-06-14 00:27:49.155 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2024-06-14 00:27:49.161 LabApp] JupyterLab extension loaded from /ibex/user/alham0a/ronin/env/lib/python3.9/site-packages/jupyterlab
+[I 2024-06-14 00:27:49.161 LabApp] JupyterLab application directory is /ibex/user/alham0a/ronin/env/share/jupyter/lab
+[I 2024-06-14 00:27:49.165 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-06-14 00:27:49.169 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2024-06-14 00:27:49.173 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-06-14 00:27:49.227 ServerApp] nbdime | extension was successfully loaded.
+[I 2024-06-14 00:27:49.228 ServerApp] Serving notebooks from local directory: /ibex/user/alham0a/ronin
+[I 2024-06-14 00:27:49.228 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-06-14 00:27:49.228 ServerApp] http://gpu510-32:12472/lab?token=10a0f6c6997eed282680963c5787171b6d6a66bbceebc28b
+[I 2024-06-14 00:27:49.228 ServerApp]     http://127.0.0.1:12472/lab?token=10a0f6c6997eed282680963c5787171b6d6a66bbceebc28b
+[I 2024-06-14 00:27:49.228 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-06-14 00:27:49.234 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/alham0a/.local/share/jupyter/runtime/jpserver-2172135-open.html
+    Or copy and paste one of these URLs:
+        http://gpu510-32:12472/lab?token=10a0f6c6997eed282680963c5787171b6d6a66bbceebc28b
+        http://127.0.0.1:12472/lab?token=10a0f6c6997eed282680963c5787171b6d6a66bbceebc28b
+[I 2024-06-14 00:27:49.258 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-06-14 00:28:28.776 LabApp] Failed validating settings (@jupyterlab/console-extension:tracker): Additional properties are not allowed ('customStyles', 'theme' were unexpected)
+    
+    Failed validating 'additionalProperties' in schema['properties']['promptCellConfig']:
+        {'additionalProperties': False,
+         'properties': {'autoClosingBrackets': {'title': 'Auto Closing '
+                                                         'Brackets',
+                                                'type': 'boolean'},
+                        'codeFolding': {'title': 'Code Folding',
+                                        'type': 'boolean'},
+                        'cursorBlinkRate': {'description': 'Half-period in '
+                                                           'milliseconds used '
+                                                           'for cursor '
+                                                           'blinking. The '
+                                                           'default blink rate '
+                                                           'is 530ms. By '
+                                                           'setting this to '
+                                                           'zero, blinking can '
+                                                           'be disabled. A '
+                                                           'negative value '
+                                                           'hides the cursor '
+                                                           'entirely.',
+                                            'title': 'Cursor Blinking Rate',
+                                            'type': 'number'},
+                        'fontFamily': {'title': 'Font Family',
+                                       'type': ['string', 'null']},
+                        'fontSize': {'maximum': 100,
+                                     'minimum': 1,
+                                     'title': 'Font Size',
+                                     'type': ['integer', 'null']},
+                        'insertSpaces': {'title': 'Insert Spaces',
+                                         'type': 'boolean'},
+                        'lineHeight': {'title': 'Line Height',
+                                       'type': ['number', 'null']},
+                        'lineNumbers': {'title': 'Show Line Numbers',
+                                        'type': 'boolean'},
+                        'lineWiseCopyCut': {'description': 'When enabled, '
+                                                           'which is the '
+                                                           'default, doing '
+                                                           'copy or cut when '
+                                                           'there is no '
+                                                           'selection will '
+                                                           'copy or cut the '
+                                                           'whole lines that '
+                                                           'have cursors on '
+                                                           'them.',
+                                            'title': 'Line-wise Ctrl-C',
+                                            'type': 'boolean'},
+                        'lineWrap': {'enum': ['off',
+                                              'on',
+                                              'wordWrapColumn',
+                                              'bounded'],
+                                     'title': 'Line Wrap',
+                                     'type': 'string'},
+                        'matchBrackets': {'title': 'Match Brackets',
+                                          'type': 'boolean'},
+                        'readOnly': {'title': 'Read Only', 'type': 'boolean'},
+                        'rulers': {'items': {'type': 'number'},
+                                   'title': 'Rulers',
+                                   'type': 'array'},
+                        'tabSize': {'title': 'Tab Size', 'type': 'number'},
+                        'wordWrapColumn': {'title': 'Word Wrap Column',
+                                           'type': 'integer'}},
+         'type': 'object'}
+    
+    On instance['promptCellConfig']:
+        {'autoClosingBrackets': True,
+         'customStyles': {'fontFamily': None,
+                          'fontSize': 16,
+                          'lineHeight': None},
+         'lineNumbers': False,
+         'theme': 'Jupyterlab Solarized Dark'}
+[W 2024-06-14 00:28:28.776 LabApp] Failed validating settings (@jupyterlab/fileeditor-extension:plugin): Additional properties are not allowed ('customStyles', 'theme' were unexpected)
+    
+    Failed validating 'additionalProperties' in schema['properties']['editorConfig']:
+        {'additionalProperties': False,
+         'properties': {'autoClosingBrackets': {'default': False,
+                                                'title': 'Auto Closing '
+                                                         'Brackets',
+                                                'type': 'boolean'},
+                        'codeFolding': {'default': False,
+                                        'title': 'Code Folding',
+                                        'type': 'boolean'},
+                        'cursorBlinkRate': {'cursorBlinkRate': 530,
+                                            'description': 'Half-period in '
+                                                           'milliseconds used '
+                                                           'for cursor '
+                                                           'blinking. The '
+                                                           'default blink rate '
+                                                           'is 530ms. By '
+                                                           'setting this to '
+                                                           'zero, blinking can '
+                                                           'be disabled. A '
+                                                           'negative value '
+                                                           'hides the cursor '
+                                                           'entirely.',
+                                            'title': 'Cursor blinking rate',
+                                            'type': 'number'},
+                        'fontFamily': {'default': None,
+                                       'title': 'Font Family',
+                                       'type': ['string', 'null']},
+                        'fontSize': {'default': None,
+                                     'maximum': 100,
+                                     'minimum': 1,
+                                     'title': 'Font Size',
+                                     'type': ['integer', 'null']},
+                        'insertSpaces': {'default': True,
+                                         'title': 'Insert Spaces',
+                                         'type': 'boolean'},
+                        'lineHeight': {'default': None,
+                                       'title': 'Line Height',
+                                       'type': ['number', 'null']},
+                        'lineNumbers': {'default': True,
+                                        'title': 'Line Numbers',
+                                        'type': 'boolean'},
+                        'lineWrap': {'default': 'on',
+                                     'enum': ['off',
+                                              'on',
+                                              'wordWrapColumn',
+                                              'bounded'],
+                                     'title': 'Line Wrap',
+                                     'type': 'string'},
+                        'matchBrackets': {'default': True,
+                                          'title': 'Match Brackets',
+                                          'type': 'boolean'},
+                        'readOnly': {'default': False,
+                                     'title': 'Read Only',
+                                     'type': 'boolean'},
+                        'rulers': {'default': [],
+                                   'items': {'type': 'number'},
+                                   'title': 'Rulers',
+                                   'type': 'array'},
+                        'showTrailingSpace': {'default': False,
+                                              'title': 'Show Trailing Space',
+                                              'type': 'boolean'},
+                        'tabSize': {'default': 4,
+                                    'title': 'Tab Size',
+                                    'type': 'number'},
+                        'wordWrapColumn': {'default': 80,
+                                           'title': 'Word Wrap Column',
+                                           'type': 'integer'}},
+         'type': 'object'}
+    
+    On instance['editorConfig']:
+        {'autoClosingBrackets': True,
+         'customStyles': {'fontFamily': None,
+                          'fontSize': 20,
+                          'lineHeight': None},
+         'theme': 'Jupyterlab Solarized Dark'}
+[W 2024-06-14 00:28:28.776 LabApp] Failed validating settings (@jupyterlab/notebook-extension:tracker): False is not of type 'string'
+    
+    Failed validating 'type' in schema['properties']['codeCellConfig']['properties']['lineWrap']:
+        {'enum': ['off', 'on', 'wordWrapColumn', 'bounded'],
+         'title': 'Line Wrap',
+         'type': 'string'}
+    
+    On instance['codeCellConfig']['lineWrap']:
+        False
+[W 2024-06-14 00:28:28.776 LabApp] Failed validating settings (@jupyterlab/terminal-extension:plugin): Additional properties are not allowed ('cursorBlink' was unexpected)
+    
+    Failed validating 'additionalProperties' in schema:
+        {'additionalProperties': False,
+         'definitions': {'fontFamily': {'type': 'string'},
+                         'fontSize': {'maximum': 72,
+                                      'minimum': 9,
+                                      'type': 'integer'},
+                         'lineHeight': {'minimum': 1.0, 'type': 'number'},
+                         'macOptionIsMeta': {'type': 'boolean'},
+                         'pasteWithCtrlV': {'type': 'boolean'},
+                         'scrollback': {'type': 'number'},
+                         'theme': {'enum': ['dark', 'light', 'inherit']}},
+         'description': 'Terminal settings.',
+         'jupyter.lab.menus': {'context': [{'command': 'terminal:copy',
+                                            'rank': 1,
+                                            'selector': '.jp-Terminal'},
+                                           {'command': 'terminal:paste',
+                                            'rank': 2,
+                                            'selector': '.jp-Terminal'},
+                                           {'command': 'terminal:refresh',
+                                            'rank': 3,
+                                            'selector': '.jp-Terminal'}]},
+         'jupyter.lab.setting-icon': 'ui-components:terminal',
+         'jupyter.lab.setting-icon-label': 'Terminal',
+         'properties': {'closeOnExit': {'default': True,
+                                        'description': 'Close the widget when '
+                                                       'exiting the terminal.',
+                                        'title': 'Close on exit',
+                                        'type': 'boolean'},
+                        'fontFamily': {'$ref': '#/definitions/fontFamily',
+                                       'default': 'monospace',
+                                       'description': 'The font family used to '
+                                                      'render text.',
+                                       'title': 'Font family'},
+                        'fontSize': {'$ref': '#/definitions/fontSize',
+                                     'default': 13,
+                                     'description': 'The font size used to '
+                                                    'render text.',
+                                     'title': 'Font size'},
+                        'lineHeight': {'$ref': '#/definitions/lineHeight',
+                                       'default': 1.0,
+                                       'description': 'The line height used to '
+                                                      'render text.',
+                                       'title': 'Line height'},
+                        'macOptionIsMeta': {'default': False,
+                                            'description': 'Option key on '
+                                                           'macOS can be used '
+                                                           'as meta key. This '
+                                                           'enables to use '
+                                                           'shortcuts such as '
+                                                           'option + f to move '
+                                                           'cursor forward one '
+                                                           'word',
+                                            'title': 'Treat option as meta key '
+                                                     'on macOS',
+                                            'type': 'boolean'},
+                        'pasteWithCtrlV': {'default': True,
+                                           'description': 'Enable pasting with '
+                                                          'Ctrl+V.  This can '
+                                                          'be disabled to use '
+                                                          'Ctrl+V in the vi '
+                                                          'editor, for '
+                                                          'instance.  This '
+                                                          'setting has no '
+                                                          'effect on macOS, '
+                                                          'where Cmd+V is '
+                                                          'available',
+                                           'title': 'Paste with Ctrl+V',
+                                           'type': 'boolean'},
+                        'screenReaderMode': {'default': False,
+                                             'description': 'Add accessibility '
+                                                            'elements for use '
+                                                            'with screen '
+                                                            'readers.',
+                                             'title': 'Screen Reader Mode',
+                                             'type': 'boolean'},
+                        'scrollback': {'$ref': '#/definitions/lineHeight',
+                                       'default': 1000,
+                                       'description': 'The amount of '
+                                                      'scrollback beyond '
+                                                      'initial viewport',
+                                       'title': 'Scrollback Buffer'},
+                        'shutdownOnClose': {'default': False,
+                                            'description': 'Shut down the '
+                                                           'session when '
+                                                           'closing the '
+                                                           'terminal.',
+                                            'title': 'Shut down on close',
+                                            'type': 'boolean'},
+                        'theme': {'$ref': '#/definitions/theme',
+                                  'default': 'inherit',
+                                  'description': 'The theme for the terminal.',
+                                  'title': 'Theme'}},
+         'title': 'Terminal',
+         'type': 'object'}
+    
+    On instance:
+        {'closeOnExit': True,
+         'cursorBlink': True,
+         'fontFamily': 'monospace',
+         'fontSize': 18,
+         'lineHeight': 1.5,
+         'macOptionIsMeta': False,
+         'pasteWithCtrlV': True,
+         'screenReaderMode': False,
+         'scrollback': 1000,
+         'shutdownOnClose': False,
+         'theme': 'inherit'}
+[W 2024-06-14 00:28:30.010 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-06-14 00:28:30.441 LabApp] Failed validating settings (@jupyterlab/fileeditor-extension:plugin): Additional properties are not allowed ('customStyles', 'theme' were unexpected)
+    
+    Failed validating 'additionalProperties' in schema['properties']['editorConfig']:
+        {'additionalProperties': False,
+         'properties': {'autoClosingBrackets': {'default': False,
+                                                'title': 'Auto Closing '
+                                                         'Brackets',
+                                                'type': 'boolean'},
+                        'codeFolding': {'default': False,
+                                        'title': 'Code Folding',
+                                        'type': 'boolean'},
+                        'cursorBlinkRate': {'cursorBlinkRate': 530,
+                                            'description': 'Half-period in '
+                                                           'milliseconds used '
+                                                           'for cursor '
+                                                           'blinking. The '
+                                                           'default blink rate '
+                                                           'is 530ms. By '
+                                                           'setting this to '
+                                                           'zero, blinking can '
+                                                           'be disabled. A '
+                                                           'negative value '
+                                                           'hides the cursor '
+                                                           'entirely.',
+                                            'title': 'Cursor blinking rate',
+                                            'type': 'number'},
+                        'fontFamily': {'default': None,
+                                       'title': 'Font Family',
+                                       'type': ['string', 'null']},
+                        'fontSize': {'default': None,
+                                     'maximum': 100,
+                                     'minimum': 1,
+                                     'title': 'Font Size',
+                                     'type': ['integer', 'null']},
+                        'insertSpaces': {'default': True,
+                                         'title': 'Insert Spaces',
+                                         'type': 'boolean'},
+                        'lineHeight': {'default': None,
+                                       'title': 'Line Height',
+                                       'type': ['number', 'null']},
+                        'lineNumbers': {'default': True,
+                                        'title': 'Line Numbers',
+                                        'type': 'boolean'},
+                        'lineWrap': {'default': 'on',
+                                     'enum': ['off',
+                                              'on',
+                                              'wordWrapColumn',
+                                              'bounded'],
+                                     'title': 'Line Wrap',
+                                     'type': 'string'},
+                        'matchBrackets': {'default': True,
+                                          'title': 'Match Brackets',
+                                          'type': 'boolean'},
+                        'readOnly': {'default': False,
+                                     'title': 'Read Only',
+                                     'type': 'boolean'},
+                        'rulers': {'default': [],
+                                   'items': {'type': 'number'},
+                                   'title': 'Rulers',
+                                   'type': 'array'},
+                        'showTrailingSpace': {'default': False,
+                                              'title': 'Show Trailing Space',
+                                              'type': 'boolean'},
+                        'tabSize': {'default': 4,
+                                    'title': 'Tab Size',
+                                    'type': 'number'},
+                        'wordWrapColumn': {'default': 80,
+                                           'title': 'Word Wrap Column',
+                                           'type': 'integer'}},
+         'type': 'object'}
+    
+    On instance['editorConfig']:
+        {'autoClosingBrackets': True,
+         'customStyles': {'fontFamily': None,
+                          'fontSize': 20,
+                          'lineHeight': None},
+         'theme': 'Jupyterlab Solarized Dark'}
+[W 2024-06-14 00:28:30.707 LabApp] Failed validating settings (@jupyterlab/console-extension:tracker): Additional properties are not allowed ('customStyles', 'theme' were unexpected)
+    
+    Failed validating 'additionalProperties' in schema['properties']['promptCellConfig']:
+        {'additionalProperties': False,
+         'properties': {'autoClosingBrackets': {'title': 'Auto Closing '
+                                                         'Brackets',
+                                                'type': 'boolean'},
+                        'codeFolding': {'title': 'Code Folding',
+                                        'type': 'boolean'},
+                        'cursorBlinkRate': {'description': 'Half-period in '
+                                                           'milliseconds used '
+                                                           'for cursor '
+                                                           'blinking. The '
+                                                           'default blink rate '
+                                                           'is 530ms. By '
+                                                           'setting this to '
+                                                           'zero, blinking can '
+                                                           'be disabled. A '
+                                                           'negative value '
+                                                           'hides the cursor '
+                                                           'entirely.',
+                                            'title': 'Cursor Blinking Rate',
+                                            'type': 'number'},
+                        'fontFamily': {'title': 'Font Family',
+                                       'type': ['string', 'null']},
+                        'fontSize': {'maximum': 100,
+                                     'minimum': 1,
+                                     'title': 'Font Size',
+                                     'type': ['integer', 'null']},
+                        'insertSpaces': {'title': 'Insert Spaces',
+                                         'type': 'boolean'},
+                        'lineHeight': {'title': 'Line Height',
+                                       'type': ['number', 'null']},
+                        'lineNumbers': {'title': 'Show Line Numbers',
+                                        'type': 'boolean'},
+                        'lineWiseCopyCut': {'description': 'When enabled, '
+                                                           'which is the '
+                                                           'default, doing '
+                                                           'copy or cut when '
+                                                           'there is no '
+                                                           'selection will '
+                                                           'copy or cut the '
+                                                           'whole lines that '
+                                                           'have cursors on '
+                                                           'them.',
+                                            'title': 'Line-wise Ctrl-C',
+                                            'type': 'boolean'},
+                        'lineWrap': {'enum': ['off',
+                                              'on',
+                                              'wordWrapColumn',
+                                              'bounded'],
+                                     'title': 'Line Wrap',
+                                     'type': 'string'},
+                        'matchBrackets': {'title': 'Match Brackets',
+                                          'type': 'boolean'},
+                        'readOnly': {'title': 'Read Only', 'type': 'boolean'},
+                        'rulers': {'items': {'type': 'number'},
+                                   'title': 'Rulers',
+                                   'type': 'array'},
+                        'tabSize': {'title': 'Tab Size', 'type': 'number'},
+                        'wordWrapColumn': {'title': 'Word Wrap Column',
+                                           'type': 'integer'}},
+         'type': 'object'}
+    
+    On instance['promptCellConfig']:
+        {'autoClosingBrackets': True,
+         'customStyles': {'fontFamily': None,
+                          'fontSize': 16,
+                          'lineHeight': None},
+         'lineNumbers': False,
+         'theme': 'Jupyterlab Solarized Dark'}
+[W 2024-06-14 00:28:30.707 LabApp] Failed validating settings (@jupyterlab/fileeditor-extension:plugin): Additional properties are not allowed ('customStyles', 'theme' were unexpected)
+    
+    Failed validating 'additionalProperties' in schema['properties']['editorConfig']:
+        {'additionalProperties': False,
+         'properties': {'autoClosingBrackets': {'default': False,
+                                                'title': 'Auto Closing '
+                                                         'Brackets',
+                                                'type': 'boolean'},
+                        'codeFolding': {'default': False,
+                                        'title': 'Code Folding',
+                                        'type': 'boolean'},
+                        'cursorBlinkRate': {'cursorBlinkRate': 530,
+                                            'description': 'Half-period in '
+                                                           'milliseconds used '
+                                                           'for cursor '
+                                                           'blinking. The '
+                                                           'default blink rate '
+                                                           'is 530ms. By '
+                                                           'setting this to '
+                                                           'zero, blinking can '
+                                                           'be disabled. A '
+                                                           'negative value '
+                                                           'hides the cursor '
+                                                           'entirely.',
+                                            'title': 'Cursor blinking rate',
+                                            'type': 'number'},
+                        'fontFamily': {'default': None,
+                                       'title': 'Font Family',
+                                       'type': ['string', 'null']},
+                        'fontSize': {'default': None,
+                                     'maximum': 100,
+                                     'minimum': 1,
+                                     'title': 'Font Size',
+                                     'type': ['integer', 'null']},
+                        'insertSpaces': {'default': True,
+                                         'title': 'Insert Spaces',
+                                         'type': 'boolean'},
+                        'lineHeight': {'default': None,
+                                       'title': 'Line Height',
+                                       'type': ['number', 'null']},
+                        'lineNumbers': {'default': True,
+                                        'title': 'Line Numbers',
+                                        'type': 'boolean'},
+                        'lineWrap': {'default': 'on',
+                                     'enum': ['off',
+                                              'on',
+                                              'wordWrapColumn',
+                                              'bounded'],
+                                     'title': 'Line Wrap',
+                                     'type': 'string'},
+                        'matchBrackets': {'default': True,
+                                          'title': 'Match Brackets',
+                                          'type': 'boolean'},
+                        'readOnly': {'default': False,
+                                     'title': 'Read Only',
+                                     'type': 'boolean'},
+                        'rulers': {'default': [],
+                                   'items': {'type': 'number'},
+                                   'title': 'Rulers',
+                                   'type': 'array'},
+                        'showTrailingSpace': {'default': False,
+                                              'title': 'Show Trailing Space',
+                                              'type': 'boolean'},
+                        'tabSize': {'default': 4,
+                                    'title': 'Tab Size',
+                                    'type': 'number'},
+                        'wordWrapColumn': {'default': 80,
+                                           'title': 'Word Wrap Column',
+                                           'type': 'integer'}},
+         'type': 'object'}
+    
+    On instance['editorConfig']:
+        {'autoClosingBrackets': True,
+         'customStyles': {'fontFamily': None,
+                          'fontSize': 20,
+                          'lineHeight': None},
+         'theme': 'Jupyterlab Solarized Dark'}
+[W 2024-06-14 00:28:30.707 LabApp] Failed validating settings (@jupyterlab/notebook-extension:tracker): False is not of type 'string'
+    
+    Failed validating 'type' in schema['properties']['codeCellConfig']['properties']['lineWrap']:
+        {'enum': ['off', 'on', 'wordWrapColumn', 'bounded'],
+         'title': 'Line Wrap',
+         'type': 'string'}
+    
+    On instance['codeCellConfig']['lineWrap']:
+        False
+[W 2024-06-14 00:28:30.707 LabApp] Failed validating settings (@jupyterlab/terminal-extension:plugin): Additional properties are not allowed ('cursorBlink' was unexpected)
+    
+    Failed validating 'additionalProperties' in schema:
+        {'additionalProperties': False,
+         'definitions': {'fontFamily': {'type': 'string'},
+                         'fontSize': {'maximum': 72,
+                                      'minimum': 9,
+                                      'type': 'integer'},
+                         'lineHeight': {'minimum': 1.0, 'type': 'number'},
+                         'macOptionIsMeta': {'type': 'boolean'},
+                         'pasteWithCtrlV': {'type': 'boolean'},
+                         'scrollback': {'type': 'number'},
+                         'theme': {'enum': ['dark', 'light', 'inherit']}},
+         'description': 'Terminal settings.',
+         'jupyter.lab.menus': {'context': [{'command': 'terminal:copy',
+                                            'rank': 1,
+                                            'selector': '.jp-Terminal'},
+                                           {'command': 'terminal:paste',
+                                            'rank': 2,
+                                            'selector': '.jp-Terminal'},
+                                           {'command': 'terminal:refresh',
+                                            'rank': 3,
+                                            'selector': '.jp-Terminal'}]},
+         'jupyter.lab.setting-icon': 'ui-components:terminal',
+         'jupyter.lab.setting-icon-label': 'Terminal',
+         'properties': {'closeOnExit': {'default': True,
+                                        'description': 'Close the widget when '
+                                                       'exiting the terminal.',
+                                        'title': 'Close on exit',
+                                        'type': 'boolean'},
+                        'fontFamily': {'$ref': '#/definitions/fontFamily',
+                                       'default': 'monospace',
+                                       'description': 'The font family used to '
+                                                      'render text.',
+                                       'title': 'Font family'},
+                        'fontSize': {'$ref': '#/definitions/fontSize',
+                                     'default': 13,
+                                     'description': 'The font size used to '
+                                                    'render text.',
+                                     'title': 'Font size'},
+                        'lineHeight': {'$ref': '#/definitions/lineHeight',
+                                       'default': 1.0,
+                                       'description': 'The line height used to '
+                                                      'render text.',
+                                       'title': 'Line height'},
+                        'macOptionIsMeta': {'default': False,
+                                            'description': 'Option key on '
+                                                           'macOS can be used '
+                                                           'as meta key. This '
+                                                           'enables to use '
+                                                           'shortcuts such as '
+                                                           'option + f to move '
+                                                           'cursor forward one '
+                                                           'word',
+                                            'title': 'Treat option as meta key '
+                                                     'on macOS',
+                                            'type': 'boolean'},
+                        'pasteWithCtrlV': {'default': True,
+                                           'description': 'Enable pasting with '
+                                                          'Ctrl+V.  This can '
+                                                          'be disabled to use '
+                                                          'Ctrl+V in the vi '
+                                                          'editor, for '
+                                                          'instance.  This '
+                                                          'setting has no '
+                                                          'effect on macOS, '
+                                                          'where Cmd+V is '
+                                                          'available',
+                                           'title': 'Paste with Ctrl+V',
+                                           'type': 'boolean'},
+                        'screenReaderMode': {'default': False,
+                                             'description': 'Add accessibility '
+                                                            'elements for use '
+                                                            'with screen '
+                                                            'readers.',
+                                             'title': 'Screen Reader Mode',
+                                             'type': 'boolean'},
+                        'scrollback': {'$ref': '#/definitions/lineHeight',
+                                       'default': 1000,
+                                       'description': 'The amount of '
+                                                      'scrollback beyond '
+                                                      'initial viewport',
+                                       'title': 'Scrollback Buffer'},
+                        'shutdownOnClose': {'default': False,
+                                            'description': 'Shut down the '
+                                                           'session when '
+                                                           'closing the '
+                                                           'terminal.',
+                                            'title': 'Shut down on close',
+                                            'type': 'boolean'},
+                        'theme': {'$ref': '#/definitions/theme',
+                                  'default': 'inherit',
+                                  'description': 'The theme for the terminal.',
+                                  'title': 'Theme'}},
+         'title': 'Terminal',
+         'type': 'object'}
+    
+    On instance:
+        {'closeOnExit': True,
+         'cursorBlink': True,
+         'fontFamily': 'monospace',
+         'fontSize': 18,
+         'lineHeight': 1.5,
+         'macOptionIsMeta': False,
+         'pasteWithCtrlV': True,
+         'screenReaderMode': False,
+         'scrollback': 1000,
+         'shutdownOnClose': False,
+         'theme': 'inherit'}
+WARNING:bokeh.server.util:Host wildcard '*' will allow connections originating from multiple (or possibly all) hostnames or IPs. Use non-wildcard values to restrict access explicitly
+[I 2024-06-14 00:30:13.681 ServerApp] New terminal with automatic name: 1
+[I 2024-06-14 00:35:11.978 ServerApp] Saving file at /src/data_utils.py
+[I 2024-06-14 00:36:01.694 ServerApp] Saving file at /src/data_glob_speed.py
+[I 2024-06-14 00:45:58.350 ServerApp] Saving file at /config/temporal_model_defaults.json
+[I 2024-06-14 01:18:11.002 ServerApp] Saving file at /src/ronin_lstm_tcn.py
+[I 2024-06-14 01:18:12.214 ServerApp] Saving file at /src/data_utils.py
+[I 2024-06-14 01:18:13.256 ServerApp] Saving file at /src/data_glob_speed.py
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 34436174.0 ON gpu510-32 CANCELLED AT 2024-06-14T01:19:00 ***
+slurmstepd: error: *** JOB 34436174 ON gpu510-32 CANCELLED AT 2024-06-14T01:19:00 ***

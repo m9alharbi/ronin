@@ -1,0 +1,27 @@
+name: ronin_env
+  
+channels:
+  - conda-forge
+  - defaults
+  - nvidia
+  - pytorch
+
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - pandas
+  - h5py
+  - matplotlib
+  - tensorboardX
+  - numba
+  - plyfile
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyterlab-lsp
+  - tqdm
+  - scikit-learn
+  - pip
+  - pip:
+    - -r requirements.txt

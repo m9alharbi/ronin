@@ -1,0 +1,103 @@
+Namespace(config='/ibex/user/alham0a/ronin/config/temporal_model_defaults.json', type='lstm_bi', data_dir='/ibex/user/alham0a/ronin/data/seen_subjects_test_set', cache_path=None, feature_sigma=0.001, target_sigma=0.0, window_size=400, step_size=100, batch_size=72, num_workers=1, out_dir='/ibex/user/alham0a/ronin/results/example-training-job-1', device='cpu', dataset='ronin', kernel_size=3, channels=[32, 64, 128, 256, 72, 36], layers=3, layer_size=100, mode='test', test_path=None, test_list='/ibex/user/alham0a/ronin/lists/list_test_seen.txt', model_path='/ibex/user/alham0a/ronin/results/ronin_lstm/checkpoints/ronin_lstm_checkpoint.pt', fast_test=False, show_plot=False) {}
+a001_2: device: asus7, ori_error (game_rv): 8.617
+Bilinear LSTM Network
+Network constructed. trainable parameters: 216620
+Model /ibex/user/alham0a/ronin/results/ronin_lstm/checkpoints/ronin_lstm_checkpoint.pt loaded to device cpu.
+a001_2: device: asus7, ori_error (game_rv): 8.617
+a003_3: device: samsung1, ori_error (game_rv): 1.669
+a004_3: device: asus3, ori_error (game_rv): 14.735
+a005_3: device: samsung1, ori_error (game_rv): 1.271
+a009_1: device: asus4, ori_error (game_rv): 2.222
+a010_2: device: samsung1, ori_error (game_rv): 17.991
+a011_2: device: samsung1, ori_error (game_rv): 30.493
+a012_2: device: samsung1, ori_error (game_rv): 4.979
+a013_2: device: asus4, ori_error (game_rv): 5.244
+a014_2: device: asus4, ori_error (game_rv): 7.929
+a016_1: device: asus4, ori_error (game_rv): 5.513
+a017_2: device: samsung1, ori_error (game_rv): 4.091
+a020_2: device: asus3, ori_error (game_rv): 3.441
+a021_2: device: samsung1, ori_error (game_rv): 6.462
+a022_2: device: asus5, ori_error (game_rv): 3.583
+a023_1: device: asus5, ori_error (game_rv): 7.791
+a025_2: device: samsung1, ori_error (game_rv): 2.222
+a026_2: device: asus4, ori_error (game_rv): 8.912
+a027_2: device: samsung1, ori_error (game_rv): 11.382
+a030_3: device: samsung1, ori_error (game_rv): 5.627
+a031_2: device: samsung1, ori_error (game_rv): 4.495
+a033_2: device: samsung1, ori_error (game_rv): 1.657
+a035_3: device: samsung1, ori_error (game_rv): 8.565
+a036_2: device: asus4, ori_error (game_rv): 16.805
+a037_1: device: asus4, ori_error (game_rv): 4.859
+a038_2: device: samsung1, ori_error (game_rv): 5.030
+a044_2: device: samsung1, ori_error (game_rv): 2.577
+a046_2: device: samsung1, ori_error (game_rv): 12.161
+a047_2: device: asus4, ori_error (game_rv): 16.972
+a000_7: device: asus4, ori_error (game_rv): 8.354
+a000_11: device: asus6, ori_error (game_rv): 16.363
+a059_2: device: asus4, ori_error (game_rv): 7.410
+Reconstructing trajectory
+Sequence a001_2, Velocity loss [0.199428 0.183724] / 0.19157616794109344, ATE: 8.58078914710614, RTE:3.084254385385032
+Reconstructing trajectory
+Sequence a003_3, Velocity loss [0.301332 0.249997] / 0.27566489577293396, ATE: 3.221385349010227, RTE:3.4306215421074784
+Reconstructing trajectory
+Sequence a004_3, Velocity loss [0.312271 0.265881] / 0.28907617926597595, ATE: 2.7591391447403764, RTE:2.1943784461095017
+Reconstructing trajectory
+Sequence a005_3, Velocity loss [0.605849 0.501547] / 0.5536977052688599, ATE: 7.512368995204442, RTE:2.6613668825950243
+Reconstructing trajectory
+Sequence a009_1, Velocity loss [0.943484 0.846563] / 0.8950235247612, ATE: 1.3688822184143725, RTE:1.563443325281555
+Reconstructing trajectory
+Sequence a010_2, Velocity loss [0.225752 0.198934] / 0.21234288811683655, ATE: 4.073233876014097, RTE:2.617774292498539
+Reconstructing trajectory
+Sequence a011_2, Velocity loss [0.111730 0.145262] / 0.12849602103233337, ATE: 4.486837474140865, RTE:5.3081008176584294
+Reconstructing trajectory
+Sequence a012_2, Velocity loss [0.603853 0.596660] / 0.6002565026283264, ATE: 4.406055489705797, RTE:2.152825490465113
+Reconstructing trajectory
+Sequence a013_2, Velocity loss [0.399479 0.335984] / 0.3677317798137665, ATE: 5.4685815230362795, RTE:1.7154704953575537
+Reconstructing trajectory
+Sequence a014_2, Velocity loss [0.396154 0.346073] / 0.3711135685443878, ATE: 3.8461170201334385, RTE:3.0228328733870042
+Reconstructing trajectory
+Sequence a016_1, Velocity loss [0.314132 0.280508] / 0.2973201870918274, ATE: 2.0633963208936668, RTE:1.300419479836445
+Reconstructing trajectory
+Sequence a017_2, Velocity loss [0.321632 0.318099] / 0.3198654055595398, ATE: 4.397675167392095, RTE:1.6374363695182184
+Reconstructing trajectory
+Sequence a020_2, Velocity loss [0.481127 0.432851] / 0.4569888710975647, ATE: 4.037083231849696, RTE:3.258407240019479
+Reconstructing trajectory
+Sequence a021_2, Velocity loss [0.304576 0.289640] / 0.2971079349517822, ATE: 6.2087919314703415, RTE:1.9843225488120642
+Reconstructing trajectory
+Sequence a022_2, Velocity loss [0.666191 0.628720] / 0.6474554538726807, ATE: 3.9210242733369944, RTE:3.1286043459700736
+Reconstructing trajectory
+Sequence a023_1, Velocity loss [0.223453 0.194809] / 0.20913109183311462, ATE: 1.4502070085559766, RTE:1.825354210347621
+Reconstructing trajectory
+Sequence a025_2, Velocity loss [0.622009 0.483136] / 0.55257248878479, ATE: 6.910228138831656, RTE:4.240046670208371
+Reconstructing trajectory
+Sequence a026_2, Velocity loss [0.224197 0.206617] / 0.21540683507919312, ATE: 6.032576762187719, RTE:2.884516687450822
+Reconstructing trajectory
+Sequence a027_2, Velocity loss [0.303743 0.283209] / 0.293475866317749, ATE: 2.4708067075502975, RTE:1.785630459350186
+Reconstructing trajectory
+Sequence a030_3, Velocity loss [0.387869 0.340712] / 0.36429065465927124, ATE: 4.648928870269856, RTE:2.0457196872197754
+Reconstructing trajectory
+Sequence a031_2, Velocity loss [0.200463 0.207225] / 0.20384426414966583, ATE: 2.133382176296086, RTE:1.7166734712402947
+Reconstructing trajectory
+Sequence a033_2, Velocity loss [0.244735 0.239852] / 0.24229353666305542, ATE: 8.095024623579274, RTE:1.9238308312224988
+Reconstructing trajectory
+Sequence a035_3, Velocity loss [0.321416 0.288534] / 0.30497491359710693, ATE: 2.4156980712155827, RTE:2.667405015539572
+Reconstructing trajectory
+Sequence a036_2, Velocity loss [0.193544 0.176307] / 0.18492555618286133, ATE: 5.593073822552424, RTE:3.6386826044695457
+Reconstructing trajectory
+Sequence a037_1, Velocity loss [0.133085 0.117059] / 0.12507203221321106, ATE: 2.4013543096423278, RTE:1.0514760303621935
+Reconstructing trajectory
+Sequence a038_2, Velocity loss [0.146025 0.159365] / 0.15269455313682556, ATE: 3.1941513946397015, RTE:1.3727992286187165
+Reconstructing trajectory
+Sequence a044_2, Velocity loss [0.330775 0.468572] / 0.39967358112335205, ATE: 7.078424363194363, RTE:2.499459124285431
+Reconstructing trajectory
+Sequence a046_2, Velocity loss [0.204695 0.304693] / 0.2546938359737396, ATE: 10.84503139105075, RTE:8.864105598891047
+Reconstructing trajectory
+Sequence a047_2, Velocity loss [0.230903 0.269807] / 0.2503553330898285, ATE: 3.523032854752237, RTE:2.0529733437313453
+Reconstructing trajectory
+Sequence a000_7, Velocity loss [0.330429 0.348498] / 0.33946365118026733, ATE: 2.30018851168403, RTE:2.881049754668341
+Reconstructing trajectory
+Sequence a000_11, Velocity loss [0.225674 0.165459] / 0.1955668032169342, ATE: 7.000912663334127, RTE:4.874043802093644
+Reconstructing trajectory
+Sequence a059_2, Velocity loss [0.292470 0.267060] / 0.2797650098800659, ATE: 2.50975417090619, RTE:1.470948778766113
+ATE	RTE 
+ 4.529816781334107	2.7142179322958446

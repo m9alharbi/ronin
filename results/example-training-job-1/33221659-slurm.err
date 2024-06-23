@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/ibex/user/alham0a/ronin/src/ronin_lstm_tcn.py", line 543, in <module>
+    test(args, **kwargs)
+  File "/ibex/user/alham0a/ronin/src/ronin_lstm_tcn.py", line 363, in test
+    checkpoint = torch.load(args.model_path, map_location={model_data['device']: args.device})
+KeyError: 'device'

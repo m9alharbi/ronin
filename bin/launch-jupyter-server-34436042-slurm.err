@@ -1,0 +1,14 @@
+Identity added: /home/alham0a/.ssh/id_rsa (Mohammed.alharbi.3@kaust.edu.sa)
+Identity added: /home/alham0a/.ssh/id_rsa (Mohammed.alharbi.3@kaust.edu.sa)
+
+To connect to the compute node dgpu609-14 on Ibex running your Jupyter server, 
+you need to create an ssh tunnel from your local machine to login node on Ibex 
+using the following command.
+
+ssh -L 12450:dgpu609-14:12450 alham0a@glogin.ibex.kaust.edu.sa 
+
+Next, you need to copy the second url provided below and paste it into the browser 
+on your local machine.
+
+/ibex/user/alham0a/ronin/./bin/launch-jupyter-server.srun: line 24: jupyter: command not found
+srun: error: dgpu609-14: task 0: Exited with exit code 127

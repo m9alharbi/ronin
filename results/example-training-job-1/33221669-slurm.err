@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/ibex/user/alham0a/ronin/src/ronin_lstm_tcn.py", line 543, in <module>
+    test(args, **kwargs)
+  File "/ibex/user/alham0a/ronin/src/ronin_lstm_tcn.py", line 366, in test
+    network.load_state_dict(checkpoint.get('model_state_dict'))
+  File "/ibex/user/alham0a/ronin/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2153, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for LSTMSeqNetwork:
+	Unexpected key(s) in state_dict: "bilinear.weight", "bilinear.bias". 
+	size mismatch for lstm.weight_ih_l0: copying a param with shape torch.Size([400, 30]) from checkpoint, the shape in current model is torch.Size([400, 6]).
+	size mismatch for linear1.weight: copying a param with shape torch.Size([10, 130]) from checkpoint, the shape in current model is torch.Size([10, 100]).

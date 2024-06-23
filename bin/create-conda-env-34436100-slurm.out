@@ -1,0 +1,35 @@
+Agent pid 2157602
+Retrieving notices: ...working... done
+Channels:
+ - conda-forge
+ - defaults
+ - nvidia
+ - pytorch
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Installing pip dependencies: ...working... Ran pip subprocess with arguments:
+['/ibex/user/alham0a/ronin/env/bin/python', '-m', 'pip', 'install', '-U', '-r', '/ibex/user/alham0a/ronin/condaenv.cyr7ddy5.requirements.txt', '--exists-action=b']
+Pip subprocess output:
+Collecting numpy-quaternion (from -r /ibex/user/alham0a/ronin/requirements.txt (line 1))
+  Using cached numpy_quaternion-2023.0.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+Requirement already satisfied: numpy>=1.13 in ./env/lib/python3.9/site-packages (from numpy-quaternion->-r /ibex/user/alham0a/ronin/requirements.txt (line 1)) (1.26.4)
+Using cached numpy_quaternion-2023.0.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (194 kB)
+Installing collected packages: numpy-quaternion
+Successfully installed numpy-quaternion-2023.0.3
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate /ibex/user/alham0a/ronin/env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+

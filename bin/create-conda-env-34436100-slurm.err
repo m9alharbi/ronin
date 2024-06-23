@@ -1,0 +1,12 @@
+Identity added: /home/alham0a/.ssh/id_rsa (Mohammed.alharbi.3@kaust.edu.sa)
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.1.2
+    latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
